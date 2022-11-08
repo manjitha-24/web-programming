@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>functions</title>
+    </head>
+    <body>
+        <script>
+           
+            function fun1(x,y){
+                document.write("sum = "+(x+y)+"<br>");
+            }
+            fun1(2,7);
+
+        </script>
+    </body>
+</html>
+
+
