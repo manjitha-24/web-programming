@@ -1,0 +1,15 @@
+<html>
+<head> Javascript Events </head>
+<body>
+<script language="Javascript" type="text/Javascript">
+ function mouseoverevent()  
+    {  
+        alert("This is html");
+    }  
+</script>
+<form>
+<p onmouseover="mouseoverevent()"> Keep cursor over me </p>
+</form>
+
+</body>
+</html>
