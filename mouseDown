@@ -1,0 +1,13 @@
+<html>
+ <head>MOUSE DOWN</head>
+ <script>
+ function mouseDown()
+ {
+ document.getElementById("pid").style.color="red";
+ }
+ </script>
+ <body>
+ <p id="pid" onmousedown="mouseDown()">when the mouse button is pressed 
+down over this text the color changes to red</p>
+ </body>
+</html>
