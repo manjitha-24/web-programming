@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>odd numbers</title>
+    </head>
+    <body>
+        <script>
+            var start = 1;
+
+var end = prompt("enter the end value");
+document.write("Odd numbers between "+start+" to "+end+":<br>");
+while(start <= end)
+{
+ if(start % 2 != 0)
+  document.write(start+", ");
+ start++;
+}
+                 </script>
+    </body>
+</html>
