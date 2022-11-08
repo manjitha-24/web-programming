@@ -1,0 +1,14 @@
+
+<html>
+ <head>MOUSE UP</head>
+ <script>
+ function mouseUp()
+ {
+ document.getElementById("pid").style.color="green";
+ }
+ </script>
+ <body>
+ <p id="pid" onmouseup="mouseUp()">when the mouse button is pressed up over this text the color 
+changes to green</p>
+ </body>
+</html>
