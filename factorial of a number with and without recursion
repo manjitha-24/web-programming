@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            factorial
+        </title>
+    </head>
+    <body>
+        <script>
+        function fact1(w){
+            if(w==0)
+                return 1;
+            else
+                return w*fact1(w-1);
+        }
+        w = prompt("enter a number");
+        output = fact1(w);
+        document.write("factorial = ",output);
+    </script>
+    </body>
+</html>
+
+
+
+<html>  
+<head>  
+</head>  
+<body style = "text-align: center; font-size: 20px;">  
+Enter a number: <input id = "num">  
+<br><br>  
+<button onclick = "fact()"> Factorial </button>  
+<p id = "res"></p>  
+<script>  
+function fact(){  
+var i, num, f;  
+f = 1;  
+num = document.getElementById("num").value;  
+for(i = 1; i <= num; i++)    
+{  
+ff = f * i;  
+}  
+
+
+
+ii = i - 1;    
+document.getElementById("res").innerHTML = " factorial =" + i + " is: " + f ;  
+}  
+</script>  
+</body>  
+</html>  
+
